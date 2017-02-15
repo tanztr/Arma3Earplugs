@@ -1,0 +1,4 @@
+//init.sqf
+call compile preprocessFile "Arma3Earplugs-master\InitEarPlug.sqf";
+//onPlayerRespawn.sqf
+call compile preprocessFile "Arma3Earplugs-master\InitEarPlug.sqf";

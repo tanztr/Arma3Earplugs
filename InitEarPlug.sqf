@@ -11,6 +11,6 @@ call compile preprocessFile "EarPlug\functions.sqf";
 	_uid = getPlayerUID player;
 	player addEventHandler ["Respawn",EarPlug_player_killed];
 	
-	MFEarPlugAction = player addAction [("<t color=""#ffff33"">") + ("Kulak Tıkacını Tak") + "</t>","EarPlug\SetEarPlug.sqf"];
+	MFEarPlugAction = player addAction [("<t color=""#ffff33"">") + ("Kulak Tıkacını Tak") + "</t>","Arma3Earplugs-master\SetEarPlug.sqf"];
 
 };

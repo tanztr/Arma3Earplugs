@@ -3,7 +3,7 @@ EarPlug_player_killed = {
 	_uid = getPlayerUID player;
 	
 	1 fadeSound 1;
-	MFEarPlugAction = _unit addAction [("<t color=""#ffff33"">") + ("Kulak Tıkacını Tak") + "</t>","EarPlug\SetEarPlug.sqf"];
+	MFEarPlugAction = _unit addAction [("<t color=""#ffff33"">") + ("Kulak Tıkacını Tak") + "</t>","Arma3Earplugs-master\SetEarPlug.sqf"];
 
 };
 
